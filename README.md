@@ -5,30 +5,31 @@ APIs :
     
     Payload:
     
-        {
+            {
     
-            "loadingPoint": "",
+                "loadingPoint": "",
       
-            "unloadingPoint": "",
+                "unloadingPoint": "",
       
-            "productType": "",
+                "productType": "",
       
-            "truckType": "",
+                "truckType": "",
       
-            "noOfTrucks": "",
+                "noOfTrucks": "",
       
-            "weight": "",
+                "weight": "",
       
-            optional:"comment": "",
+                optional:"comment": "",
       
-            “shipperId” : “shipper:<UUID>”,
+                “shipperId” : “shipper:<UUID>”,
       
-            “Date” : “dd-mm-yyyy”
+                “Date” : “dd-mm-yyyy”
         
-        }
+            }
 
 
     Response:loads details added successfully 
+
 
 2. GET “/load”
 
@@ -59,5 +60,6 @@ APIs :
         “Date” : “dd-mm-yyyy”	
         
       }
+
 
 5.DELETE “load/{loadId}”
